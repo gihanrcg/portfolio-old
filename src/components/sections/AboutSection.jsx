@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../styles/aboutSectionStyles.css';
 import SocialMediaIcon from '../about/SocialMediaIcon'
 
 class AboutSection extends Component {
@@ -21,7 +22,7 @@ class AboutSection extends Component {
                     </div>
                     <br /><br /><br />
                     <p className="lead mb-5">Problem solver, Leader, Tech Enthusiast, Public Speaker and a student who seeks
-          opportunities to enhance and share knowledge in any possible.</p>
+          opportunities to enhance and share knowledge in any possible way.</p>
                     <div className="social-icons" data-aos="flip-left" data-aos-duration="500" >
 
                         <SocialMediaIcon url="https://www.linkedin.com/in/gihan-saranga-siriwardhana/" icon="fab fa-linkedin-in" />
@@ -31,6 +32,8 @@ class AboutSection extends Component {
                         <SocialMediaIcon url="https://www.instagram.com/gihan_saranga_siriwardhana/" icon="fab fa-instagram" />
 
                     </div>
+                    <br /><br />
+                    <a href={process.env.PUBLIC_URL + '/files/gihan_siriwardhana.pdf'} download><button className="bounce btn btn-dark btn-lg text-primary" >Download CV</button></a>
                 </div>
             </section>
         );
