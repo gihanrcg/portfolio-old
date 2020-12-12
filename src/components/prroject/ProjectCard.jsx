@@ -11,7 +11,7 @@ class ProjectCard extends Component {
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title">{this.props.title}</h5>
+                            <h4 className="card-title" style={{fontSize:'24px'}}>{this.props.title}</h4>
                             <p className="card-text"> {this.props.details}</p>
                             <p className="card-text"><small> Technologies Used : <b>{this.props.tech}</b></small></p>
                             {

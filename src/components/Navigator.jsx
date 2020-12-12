@@ -35,9 +35,9 @@ class Navigator extends Component {
                             <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" target="_blank" href="https://gihanblog.netlify.com/">Blog</a>
                             </li>

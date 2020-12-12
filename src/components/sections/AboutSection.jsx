@@ -18,6 +18,8 @@ class AboutSection extends Component {
                             <br />
                             <i className="fas fa-envelope" /> &nbsp;<a href="mailto:it17016230@my.sliit.lk">it17016230@my.sliit.lk</a>
                             <br />
+                            <i className="fas fa-envelope" /> &nbsp;<a href="mailto:gihanrcg1997@gmail.com">gihanrcg1997@gmail.com</a>
+                            <br />
                         </div>
                     </div>
                     <br /><br /><br />

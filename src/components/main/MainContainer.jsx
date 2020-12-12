@@ -17,7 +17,7 @@ class MainContainer extends Component {
                 <SkillsSection/>
                 <PersonalProjectSection/>
                 <GallerySection/>   
-                <ContactUsSection/>
+                {/* <ContactUsSection/> */}
             </div>
         );
     }

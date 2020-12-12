@@ -5,8 +5,9 @@ import schoolMgmt from '../../images/proj/schoolmanagementsystem.JPG'
 import hotel from '../../images/proj/hotel.png'
 import inventory from '../../images/proj/inventory.JPG'
 import covid from '../../images/proj/covid.JPG'
-import karate from '../../images/proj/karate.JPG'
+import thuru from '../../images/proj/thuru.PNG'
 import blog from '../../images/proj/blog.JPG'
+import k8 from '../../images/proj/k8.jpg'
 
 class PersonalProjectSection extends Component {
     render() {
@@ -16,6 +17,22 @@ class PersonalProjectSection extends Component {
                     <div className="w-100">
                         <h2 className="mb-5">Personal Projects</h2>
                         <div >
+
+                            <ProjectCard
+                                image={k8}
+                                title="A Network Science-Based Approach for an Optimal Microservice Governance  "
+                                details="A unified governance model for optimizing microservice deployments factoring in dependency analysis, load prediction, centrality analysis as well as and resilience evaluation.                                
+                                
+                                (Published in The International Conference on Advancements in Computing)
+                                "
+                                tech="Microservice | Kubernetes | Docker | Istio | Shell | YAML | Python | NodeJS | ReactJS"
+                            />
+                            <ProjectCard
+                                image={thuru}
+                                title="Fully customizable online store"
+                                details="An online store that can be customized just by chaning two files. The application can be used as both web application as well as desktop application."
+                                tech="React JS | Bootstrap | Bulma | AnimateJS | ElectronJS"
+                            />
                             <ProjectCard
                                 image={hotel}
                                 title="Hotel Management System"
@@ -49,15 +66,6 @@ class PersonalProjectSection extends Component {
                                 details="A dashboard which consumes several public APIs to visualize the status of COVID-19 situation. The system also includes interactive map, country comparison with timeseries data curves and realtime news"
                                 tech="React JS | Chart JS | Bootstrap | Postman"
                                 link="https://covid-19-gihan.netlify.com/"
-                                online={true}
-                            />
-                            <ProjectCard
-                                image={karate}
-                                title="Ashihara Karate Association"
-                                details="Web Application for Ashihara Karate Association to display their achievements and informations for the students"
-                                tech="React JS | Node JS | Express JS | Bootstrap | Postman"
-                                link="https://ashiharakarate.netlify.app/"
-                                online={true}
                             />
                             <ProjectCard
                                 image={blog}
@@ -65,7 +73,6 @@ class PersonalProjectSection extends Component {
                                 details="Developed a blog site for myself to share my knowledge among others"
                                 tech="React JS | Node JS | Express JS | Bootstrap | MarkDown | Azure Functions | Google Analytics"
                                 link="https://gihanblog.netlify.com/"
-                                online={true}
                             />
                             <ProjectCard
                                 image={'https://venturebeat.com/wp-content/uploads/2020/05/microsoft-teams-logo.png?fit=1500%2C750&strip=all'}
@@ -73,7 +80,7 @@ class PersonalProjectSection extends Component {
                                 details="Script to add a bulk list of users to a team in MS teams with the help of MS teams module for PowerShell"
                                 tech="PowerShell | Batch Script"
                                 link="https://github.com/gihanrcg/MSTeamsBulkUser"
-                                online={true}
+
                             />
                         </div>
                     </div>
