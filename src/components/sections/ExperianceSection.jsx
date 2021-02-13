@@ -9,21 +9,29 @@ class ExperianceSection extends Component {
                     <h2 className="mb-5">Experience</h2>
 
                     <ExperienceCard
+                        title="Software Engineer"
+                        company="IFS R&D International :Technology "
+                        details="Immediately recruited after finishing the 3 years of scholarship program. Working on creating a next level developer experience with the marble modeling language, utilizing technologies such as : Java, ANTLR, Docker ,LSP, Maven, ANT and Bash."
+                        timeFrom="Jan 2021"
+                        timeTo="Present"
+                    />
+                    <ExperienceCard
                         title="Trainee Software Developer"
                         company="IFS R&D International :Technology "
                         details="Employed by IFS R & D International for 3 years as a Trainee Software Developer in the Technology team
-                        under the scholarship program offered by IFS in collaboration with SLIIT"
+                        under the scholarship program offered by IFS in collaboration with SLIIT."
                         details2="Developing the 'Marble' programming language with a tool to handle modeling, code generation, middle tier
                         development and server implementation utilizing technologies like Java, Python and Netbeans Platform to
-                        provide the internal framework support to IFS Applications"
+                        provide the internal framework support to IFS Applications."
                         timeFrom="June 2018"
-                        timeTo="Present"
+                        timeTo="Jan 2021"
                     />
 
                     <ExperienceCard
-                        title="Microsoft Learn Student Ambassador"
+                        title="Microsoft Learn Student Ambassador - GOLD Level"
                         company="Microsoft"
-                        details="Microsoft Student Partner program is rebranded to Microsoft Learn Student Ambassadors, I am really excited to have the privilege to be selected as a Microsoft Learn Student Ambassador which a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future, "
+                        details="Microsoft Student Partner program is re-branded to Microsoft Learn Student Ambassadors, I am really excited to have the privilege to be selected as a Microsoft Learn Student Ambassador which a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future, "
+                        details2="I am honored and humble to be the first and currently the only Gold Level Student Ambassador in Sri Lanka."
                         timeFrom="August 2019"
                         timeTo="Present"
                     />
@@ -35,7 +43,7 @@ class ExperianceSection extends Component {
                         timeFrom="August 2019"
                         timeTo="August 2020"
                     />
-                    
+
                     <ExperienceCard
                         title="President"
                         company="MS Club of SLIIT"

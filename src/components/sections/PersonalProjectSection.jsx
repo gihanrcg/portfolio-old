@@ -26,12 +26,15 @@ class PersonalProjectSection extends Component {
                                 (Published in The International Conference on Advancements in Computing)
                                 "
                                 tech="Microservice | Kubernetes | Docker | Istio | Shell | YAML | Python | NodeJS | ReactJS"
+                                awards={["National Best Quality Software Awards Finalist","Best Track Paper award on Distributed Systems in ICAC 2020"]}
+                                link="http://k8cdaphtml.netlify.app/"
                             />
                             <ProjectCard
                                 image={thuru}
                                 title="Fully customizable online store"
                                 details="An online store that can be customized just by chaning two files. The application can be used as both web application as well as desktop application."
                                 tech="React JS | Bootstrap | Bulma | AnimateJS | ElectronJS"
+                                link="http://thuru.netlify.com/"
                             />
                             <ProjectCard
                                 image={hotel}
