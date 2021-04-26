@@ -8,12 +8,20 @@ class ExperianceSection extends Component {
                 <div className="w-100" style={{ padding: '10px' }}>
                     <h2 className="mb-5">Experience</h2>
 
+
+                    <ExperienceCard
+                        title="Software Engineer"
+                        company="Sysco LABS Technologies"
+                        details="Joined with Sysco Labs Technologies as a Software Engineer"
+                        timeFrom="March 2021"
+                        timeTo="Present"
+                    />
                     <ExperienceCard
                         title="Software Engineer"
                         company="IFS R&D International :Technology "
                         details="Immediately recruited after finishing the 3 years of scholarship program. Working on creating a next level developer experience with the marble modeling language, utilizing technologies such as : Java, ANTLR, Docker ,LSP, Maven, ANT and Bash."
                         timeFrom="Jan 2021"
-                        timeTo="Present"
+                        timeTo="March 2021"
                     />
                     <ExperienceCard
                         title="Trainee Software Developer"
