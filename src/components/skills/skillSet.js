@@ -1,5 +1,25 @@
 export const languages = [
     {
+        icon: "fab fa-react",
+        name: "React"
+    },
+    {
+        icon: "devicon-graphql-plain",
+        name: "GraphQL"
+    },
+    {
+        icon: "fab fa-java",
+        name: "Java"
+    },
+    {
+        icon: "fas fa-leaf",
+        name: "Spring"
+    },
+    {
+        icon: "fab fa-node-js",
+        name: "Node"
+    },
+    {
         icon: "fab fa-angular",
         name: "Angular"
     },
@@ -10,22 +30,6 @@ export const languages = [
     {
         icon: "fab fa-js-square",
         name: "JavaScript"
-    },
-    {
-        icon: "fab fa-react",
-        name: "React"
-    },
-    {
-        icon: "fab fa-node-js",
-        name: "Node"
-    },
-    {
-        icon: "fas fa-leaf",
-        name: "Spring"
-    },
-    {
-        icon: "fab fa-java",
-        name: "Java"
     },
     {
         icon: "devicon-csharp-plain",

@@ -12,7 +12,12 @@ class ExperianceSection extends Component {
                     <ExperienceCard
                         title="Software Engineer"
                         company="Sysco LABS Technologies"
-                        details="Joined with Sysco Labs Technologies as a Software Engineer"
+                        details="Working on Sysco Shop, the main e-commerce system for the
+                        Fortune 500 company, Sysco which has millions of transactions a
+                        day. Contributing as a Full Stack Engineer to the application by
+                        taking the responsibilities from end to end, ensuring the
+                        user experience, performance and the reliability"
+                        details2="Working with React JS, Node JS, Spring boot and GraphQL in a microservice architecture deployed in Kubernetes"
                         timeFrom="March 2021"
                         timeTo="Present"
                     />
@@ -41,7 +46,7 @@ class ExperianceSection extends Component {
                         details="Microsoft Student Partner program is re-branded to Microsoft Learn Student Ambassadors, I am really excited to have the privilege to be selected as a Microsoft Learn Student Ambassador which a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future, "
                         details2="I am honored and humble to be the first and currently the only Gold Level Student Ambassador in Sri Lanka."
                         timeFrom="August 2019"
-                        timeTo="Present"
+                        timeTo="September 2021"
                     />
                     <ExperienceCard
                         title="Microsoft Student Partner"
@@ -55,8 +60,9 @@ class ExperianceSection extends Component {
                     <ExperienceCard
                         title="President"
                         company="MS Club of SLIIT"
-                        details="I am the active president of the MS Club which tries to bridge the knowledge and technology gap
-                        between a professional and an undergraduate by hosting a number of events and workshop "
+                        details="I was the active president of the MS Club which tries to bridge the knowledge and technology gap
+                        between a professional and an undergraduate"
+                        
                         timeFrom="July 2019"
                         timeTo="November 2020"
                     />
@@ -79,7 +85,7 @@ class ExperianceSection extends Component {
                         title="Member"
                         company="FOSS Community - SLIIT"
                         timeFrom="July 2017"
-                        timeTo="Present"
+                        timeTo="September 2021"
                     />
                 </div>
             </section>

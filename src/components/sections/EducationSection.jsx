@@ -11,7 +11,7 @@ class EducationSection extends Component {
                         title="B.Sc. Special (Hons) – Information Technology (Specialization – Software Engineering)"
                         uni="Sri Lanka Institute of Information Technology"
                         gpa="GPA: 3.60"
-                        due="Nov 2017 - Present"
+                        due="Nov 2017 - Dec 2021"
                     />
                     <EducationCard
                         title="Diploma in Information Technology"

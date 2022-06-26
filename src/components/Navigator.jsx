@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import gihan from  '../images/gihan.jpg';
+import gihan from  '../images/gihan.png';
 
 class Navigator extends Component {
     render() {

@@ -12,12 +12,8 @@ class AboutSection extends Component {
                         <span className="text-primary">Siriwardhana</span>
                         </h2>
                         <div className="">
-                            <i className="fas fa-map-marker-alt" />&nbsp;&nbsp; Malabe · Sri Lanka  <br />
-                            <i className="fas fa-mobile-alt" />&nbsp;&nbsp; +94 (0) 714914133 | +94 (0) 769338710 <br />
-                            <i className="fas fa-envelope" /> &nbsp;<a href="mailto:gihan.siriwardhana@studentambassadors.com">gihan.siriwardhana@studentambassadors.com</a>
-                            <br />
-                            <i className="fas fa-envelope" /> &nbsp;<a href="mailto:it17016230@my.sliit.lk">it17016230@my.sliit.lk</a>
-                            <br />
+                            <i className="fas fa-map-marker-alt" />&nbsp;&nbsp; Boralesgamuwa · Sri Lanka  <br />
+                            <i className="fas fa-mobile-alt" />&nbsp;&nbsp; +94 (0) 714914133 | +94 (0) 769338710 <br />    
                             <i className="fas fa-envelope" /> &nbsp;<a href="mailto:gihanrcg1997@gmail.com">gihanrcg1997@gmail.com</a>
                             <br />
                         </div>
@@ -35,7 +31,7 @@ class AboutSection extends Component {
 
                     </div>
                     <br /><br />
-                    <a href={process.env.PUBLIC_URL + '/files/gihan_siriwardhana.pdf'} download><button className="bounce btn btn-dark btn-lg text-primary" >Download CV</button></a>
+                    <a href={process.env.PUBLIC_URL + '/files/gihan-siriwardhana.pdf'} download><button className="bounce btn btn-dark btn-lg text-primary" >Download CV</button></a>
                 </div>
             </section>
         );
