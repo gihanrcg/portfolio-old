@@ -8,34 +8,33 @@ class ExperianceSection extends Component {
                 <div className="w-100" style={{ padding: '10px' }}>
                     <h2 className="mb-5">Experience</h2>
 
+                    <ExperienceCard
+                        title="Senior Software Engineer"
+                        company="Onramper"
+                        details="As a Senior Software Engineer - Fullstack, I played an instrumental role in the development and maintenance of Onramper, a global platform that streamlines fiat-to-crypto transactions. Utilizing a tech stack that included AWS Lambda, DynamoDB, NodeJS, React JS, and React Query, I contributed to a solution that enhances user experience in the crypto and web3 space. This platform supports a wide range of payment methods in 180 countries, significantly increases transaction success rates, reduces user fees, and provides access to over 1000 cryptocurrencies, over 130 fiat currencies and over 120 different payment methods"
+                        timeFrom="November 2022"
+                        timeTo="Present"
+                    />
 
                     <ExperienceCard
-                        title="Software Engineer"
+                        title="Senior Software Engineer"
                         company="Sysco LABS Technologies"
-                        details="Working on Sysco Shop, the main e-commerce system for the
-                        Fortune 500 company, Sysco which has millions of transactions a
-                        day. Contributing as a Full Stack Engineer to the application by
-                        taking the responsibilities from end to end, ensuring the
-                        user experience, performance and the reliability"
-                        details2="Working with React JS, Node JS, Spring boot and GraphQL in a microservice architecture deployed in Kubernetes"
+                        details="Experienced Full Stack Engineer specializing in the development of Sysco Shop, the flagship e-commerce system for Sysco, a Fortune 500 company. Taking end-to-end ownership, I ensure seamless user experience, optimal performance, and unwavering reliability. Proficient in React JS, Node JS, Spring Boot, and GraphQL, I contribute to a microservice architecture deployed on Kubernetes. Skilled in handling high transaction volumes, I bring expertise in delivering robust solutions."
                         timeFrom="March 2021"
-                        timeTo="Present"
+                        timeTo="November 2022"
                     />
                     <ExperienceCard
                         title="Software Engineer"
                         company="IFS R&D International :Technology "
-                        details="Immediately recruited after finishing the 3 years of scholarship program. Working on creating a next level developer experience with the marble modeling language, utilizing technologies such as : Java, ANTLR, Docker ,LSP, Maven, ANT and Bash."
+                        details="Recruited immediately after completing a rigorous 3-year scholarship program, I embarked on a mission to enhance developer experience by leveraging the power of the marble modeling language. Utilizing technologies such as Java, ANTLR, Docker, LSP, Maven, ANT, and Bash, I am dedicated to creating a cutting-edge environment for developers to thrive."
                         timeFrom="Jan 2021"
                         timeTo="March 2021"
                     />
                     <ExperienceCard
                         title="Trainee Software Developer"
                         company="IFS R&D International :Technology "
-                        details="Employed by IFS R & D International for 3 years as a Trainee Software Developer in the Technology team
-                        under the scholarship program offered by IFS in collaboration with SLIIT."
-                        details2="Developing the 'Marble' programming language with a tool to handle modeling, code generation, middle tier
-                        development and server implementation utilizing technologies like Java, Python and Netbeans Platform to
-                        provide the internal framework support to IFS Applications."
+                        details="During my 3-year tenure at IFS R&D International, I had the privilege of being employed as a Trainee Software Developer in the Technology team through the prestigious IFS scholarship program in collaboration with SLIIT. Within this role, I made significant contributions to the development of the 'Marble' programming language, encompassing modeling, code generation, middle-tier development, and server implementation."
+                        details2="Leveraging technologies such as Java, Python, and the NetBeans Platform, I played a crucial part in providing robust framework support for IFS Applications. This experience not only expanded my expertise in software development but also fueled my passion for delivering innovative solutions. With the valuable skills gained through the scholarship program, I am excited to continue making impactful contributions in the software development field."
                         timeFrom="June 2018"
                         timeTo="Jan 2021"
                     />
